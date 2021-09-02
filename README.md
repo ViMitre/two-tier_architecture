@@ -89,10 +89,10 @@ Restart **mongod**:<br>
 
 ### On App's security group **Edit inbound rules**:
 
-![Diagram](img/app_rules.jpg)
+![Diagram](https://github.com/ViMitre/two-tier_architecture/blob/main/img/app_rules.JPG)
 
 ### On DB's security group **Edit inbound rules**:
-![Diagram](img/db_rules.jpg)
+![Diagram](https://github.com/ViMitre/two-tier_architecture/blob/main/img/db_rules.jpg)
 
 ## On App machine:
 Load the data: `node seeds/seed.js`<br>
