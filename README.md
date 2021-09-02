@@ -90,6 +90,8 @@ Restart **mongod**:<br>
 ### On App's security group **Edit inbound rules**:
 
 ![App rules](https://github.com/ViMitre/two-tier_architecture/blob/main/img/app_rules.JPG)
+<br>
+Connection from DB machine (54.217.14.120) is allowed on port 27017
 
 ### On DB's security group **Edit inbound rules**:
 ![DB rules](https://github.com/ViMitre/two-tier_architecture/blob/main/img/db_rules.JPG)
@@ -97,3 +99,12 @@ Restart **mongod**:<br>
 ## On App machine:
 Load the data: `node seeds/seed.js`<br>
 Start the app: `npm start`
+
+### The app should work and load the database
+<br>
+
+# Build AMI-s
+- Select an instance
+- Click on **Actions**
+- Select **Image and templates**
+- **Create image**
